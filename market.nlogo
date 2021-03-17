@@ -1,7 +1,9 @@
 turtles-own
 [
-  money     ;; The total amount of money the agent has
-  strategy  ;; The strategy of the agent
+  money          ;; The total amount of money the agent has
+  strategy       ;; The strategy of the agent
+  trading-price  ;; The buying/sellig price of the turtle
+  buy?           ;; Boolean dictating whether turtle is buying or selling
 ]
 
 globals
@@ -97,7 +99,7 @@ agents
 agents
 1
 1000
-500.0
+319.0
 1
 1
 NIL

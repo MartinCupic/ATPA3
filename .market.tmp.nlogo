@@ -1,7 +1,9 @@
 turtles-own
 [
-  money     ;; The total amount of money the agent has
-  strategy  ;; The strategy of the agent
+  money         ;; The total amount of money the agent has
+  strategy      ;; The strategy of the agent
+  buying-price  ;; The buying price of the turtle
+  selling-price ;; The selli
 ]
 
 globals
@@ -11,8 +13,7 @@ globals
 
 to setup
   clear-all
-  create-turtles agents
-  ask turtles [setup-agents]
+  setup-agents
   reset-ticks
 end
 
@@ -21,8 +22,11 @@ to begin
 end
 
 to setup-agents
-  set money 10000
-
+  create-turtles agents
+  ask turtles [
+    setxy random-xcor random-ycor
+    set money 10000
+  ]
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
@@ -51,17 +55,6 @@ GRAPHICS-WINDOW
 1
 ticks
 30.0
-
-MONITOR
-0
-0
-0
-0
-NIL
-NIL
-17
-1
-11
 
 BUTTON
 15
@@ -106,11 +99,22 @@ agents
 agents
 1
 1000
-500.0
+319.0
 1
 1
 NIL
 HORIZONTAL
+
+MONITOR
+13
+106
+70
+151
+Price
+price
+17
+1
+11
 
 @#$#@#$#@
 ## WHAT IS IT?
