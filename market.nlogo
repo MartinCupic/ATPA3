@@ -8,7 +8,8 @@ turtles-own
 
 globals
 [
-  price          ;; the price of the good
+  price     ;; the price of the good
+  volume.   ;; amount of agents trading a stock
 ]
 
 to setup
@@ -39,7 +40,6 @@ to setup-agents
   ask turtles [
     setxy random-xcor random-ycor
     set money 10000
-    set strategy random 6
   ]
 end
 @#$#@#$#@
