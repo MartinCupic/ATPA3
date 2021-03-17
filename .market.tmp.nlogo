@@ -1,14 +1,3 @@
-turtles-own
-[
-
-]
-
-globals
-[
-
-]
-
-
 to begin
 @#$#@#$#@
 GRAPHICS-WINDOW
