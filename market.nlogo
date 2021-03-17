@@ -9,7 +9,7 @@ globals
 ]
 
 
-to Begin
+to begin
 
 end
 @#$#@#$#@
@@ -46,7 +46,7 @@ BUTTON
 80
 53
 Begin
-NIL
+begin
 T
 1
 T
