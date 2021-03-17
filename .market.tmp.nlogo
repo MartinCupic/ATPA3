@@ -11,7 +11,7 @@ globals
 
 to setup
   clear-all
-  create-turtles 10
+  create-turtles 1
   reset-ticks
 end
 
@@ -64,10 +64,10 @@ NIL
 1
 
 BUTTON
-93
-23
-159
-56
+88
+20
+154
+53
 Setup
 setup
 NIL
@@ -81,19 +81,19 @@ NIL
 1
 
 SLIDER
-166
 14
-203
-164
+64
+186
+97
 agents
 agents
 1
 10000
-5000.0
+4969.0
 1
 1
 NIL
-VERTICAL
+HORIZONTAL
 
 @#$#@#$#@
 ## WHAT IS IT?
