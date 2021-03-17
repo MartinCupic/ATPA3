@@ -16,7 +16,19 @@ to setup
 end
 
 to begin
+  ask turtles [
+    change-direction
+    move
+  ]
+end
 
+to change-direction
+  rt random 90
+  lt random 90
+end
+
+to move
+  forward 1
 end
 
 to setup-agents
