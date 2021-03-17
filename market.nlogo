@@ -18,6 +18,10 @@ end
 to begin
 
 end
+
+to setup-agents
+
+end
 @#$#@#$#@
 GRAPHICS-WINDOW
 210
