@@ -88,8 +88,8 @@ SLIDER
 agents
 agents
 1
-10000
-4969.0
+1000
+500.0
 1
 1
 NIL

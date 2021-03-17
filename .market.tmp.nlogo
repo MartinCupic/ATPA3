@@ -1,17 +1,17 @@
 turtles-own
 [
-    money     ;; The total amount of money the agent has
-    strategy  ;; The strategy of the agent
+  money     ;; The total amount of money the agent has
+  strategy  ;; The strategy of the agent
 ]
 
 globals
 [
-
+  price     ;; the price of the good
 ]
 
 to setup
   clear-all
-  create-turtles 1
+  create-turtles agents
   reset-ticks
 end
 
@@ -88,8 +88,8 @@ SLIDER
 agents
 agents
 1
-10000
-4969.0
+1000
+500.0
 1
 1
 NIL
