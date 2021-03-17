@@ -12,6 +12,7 @@ globals
 to setup
   clear-all
   create-turtles agents
+  ask turtles [setup-agents]
   reset-ticks
 end
 
@@ -20,6 +21,7 @@ to begin
 end
 
 to setup-agents
+  set money 10000
 
 end
 @#$#@#$#@
