@@ -11,8 +11,7 @@ globals
 
 to setup
   clear-all
-  create-turtles agents
-  ask turtles [setup-agents]
+  setup-agents
   reset-ticks
 end
 
@@ -21,8 +20,11 @@ to begin
 end
 
 to setup-agents
-  set money 10000
-
+  create-turtles agents
+  ask turtles [
+    setxy random-xcor random-ycor
+    set money 10000
+  ]
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
