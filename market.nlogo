@@ -14,6 +14,7 @@ globals
 to setup
   clear-all
   setup-agents
+  set price random 1000
   reset-ticks
 end
 
@@ -111,7 +112,7 @@ agents
 agents
 1
 1000
-319.0
+402.0
 1
 1
 NIL

@@ -1,9 +1,9 @@
 turtles-own
 [
-  money         ;; The total amount of money the agent has
-  strategy      ;; The strategy of the agent
-  buying-price  ;; The buying price of the turtle
-  selling-price ;; The selli
+  money          ;; The total amount of money the agent has
+  strategy       ;; The strategy of the agent
+  trading-price  ;; The buying/sellig price of the turtle
+  buy?           ;; Boolean dictating whether turtle is buying or selling
 ]
 
 globals
@@ -14,11 +14,24 @@ globals
 to setup
   clear-all
   setup-agents
+
   reset-ticks
 end
 
 to begin
+  ask turtles [
+    change-direction
+    move
+  ]
+end
 
+to change-direction
+  rt random 90
+  lt random 90
+end
+
+to move
+  forward 1
 end
 
 to setup-agents
@@ -99,7 +112,7 @@ agents
 agents
 1
 1000
-319.0
+402.0
 1
 1
 NIL
