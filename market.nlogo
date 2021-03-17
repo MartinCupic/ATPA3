@@ -81,19 +81,19 @@ NIL
 1
 
 SLIDER
-167
-21
-204
-171
+14
+64
+186
+97
 agents
 agents
 1
 10000
-5000.0
+2549.0
 1
 1
 NIL
-VERTICAL
+HORIZONTAL
 
 @#$#@#$#@
 ## WHAT IS IT?
