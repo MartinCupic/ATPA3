@@ -9,7 +9,7 @@ globals
 ]
 
 
-to Begin
+to b=egin
 
 end
 @#$#@#$#@
