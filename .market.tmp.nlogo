@@ -64,10 +64,10 @@ NIL
 1
 
 BUTTON
-88
-20
-154
-53
+93
+23
+159
+56
 Setup
 setup
 NIL
@@ -81,10 +81,10 @@ NIL
 1
 
 SLIDER
-167
-21
-204
-171
+166
+14
+203
+164
 agents
 agents
 1
