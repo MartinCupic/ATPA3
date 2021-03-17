@@ -1,6 +1,7 @@
 turtles-own
 [
-
+    money     ;; The total amount of money the agent has
+    strategy  ;; The strategy of the agent
 ]
 
 globals
