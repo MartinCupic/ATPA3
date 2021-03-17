@@ -8,6 +8,11 @@ globals
 
 ]
 
+to setup
+  clear-all
+  create-turtles 10
+  reset-ticks
+end
 
 to begin
 
@@ -48,6 +53,23 @@ BUTTON
 Begin
 begin
 T
+1
+T
+OBSERVER
+NIL
+NIL
+NIL
+NIL
+1
+
+BUTTON
+93
+23
+159
+56
+Setup
+setup
+NIL
 1
 T
 OBSERVER
