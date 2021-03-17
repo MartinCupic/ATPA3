@@ -101,6 +101,17 @@ agents
 NIL
 HORIZONTAL
 
+MONITOR
+13
+106
+70
+151
+Price
+price
+17
+1
+11
+
 @#$#@#$#@
 ## WHAT IS IT?
 

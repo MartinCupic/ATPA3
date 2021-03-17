@@ -12,7 +12,7 @@ globals
 to setup
   clear-all
   create-turtles agents
-  asetup-agents
+  ask turtles [setup-agents]
   reset-ticks
 end
 
@@ -51,6 +51,17 @@ GRAPHICS-WINDOW
 1
 ticks
 30.0
+
+MONITOR
+0
+0
+0
+0
+NIL
+NIL
+17
+1
+11
 
 BUTTON
 15
