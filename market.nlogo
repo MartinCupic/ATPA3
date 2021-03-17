@@ -10,6 +10,8 @@ globals
 
 
 to begin
+
+end
 @#$#@#$#@
 GRAPHICS-WINDOW
 210
