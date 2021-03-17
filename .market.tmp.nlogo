@@ -8,13 +8,13 @@ turtles-own
 
 globals
 [
-  price     ;; the price of the good
+  price      ;; the price of the good
 ]
 
 to setup
   clear-all
   setup-agents
-
+  set price random 1000
   reset-ticks
 end
 
